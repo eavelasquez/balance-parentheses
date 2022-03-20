@@ -20,5 +20,5 @@ Three ')' is required at end.
 **Approach**: we keep the track of balance of the string i:e the number '(' minus the number of ')'.
 A string is valid if it's balance is 0. If it's ever negative, we must add a '(' bracket at the beginning. Also, if the balance of string is positive, we must add a ')' brackets at the end.
 
-**Time Complexity:** O(N), where N is the length of S. 
+**Time Complexity:** O(N), where N is the length of S. <br>
 **Space Complexity:** O(1).
